@@ -615,6 +615,12 @@
   .off-mo {
     display: none;
   }
+  .mo-br {
+    display: block;
+  }
+  .inner {
+    width: 95%;
+  }
   h2.title {
     font-size: 28px;
     text-align: center;
@@ -625,6 +631,10 @@
     font-size: 20px;
   }
   /* visual */
+  .visu-inner h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
   .visu-inner p {
     line-height: 28px;
   }
@@ -639,7 +649,7 @@
     margin-bottom: 50px;
   }
   .box-text-wrap {
-    text-align: start;
+    text-align: center;
   }
   .box-text-wrap h3 {
     font-size: 22px;
@@ -696,5 +706,19 @@
   /* footer */
   .copyright {
     width: 90%;
+  }
+}
+@media screen and (max-width: 380px) {
+  /* visual */
+  .visu-inner .link-btn {
+    margin-top: 110px;
+  }
+  .visu-inner p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  h2.title {
+    font-size: 25px;
+    line-height: 35px;
   }
 }

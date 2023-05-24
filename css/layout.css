@@ -25,6 +25,9 @@ img {
 .media {
   display: none;
 }
+.mo-br {
+  display: none;
+}
 /* ############### header ############### */
 .header {
   height: 85px;
