@@ -1,0 +1,28 @@
+@keyframes scrollAni {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+/* to right */
+.ani.right {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: 1s;
+}
+.ani.right.moving {
+  opacity: 1;
+  transform: translateX(0px);
+}
+/* scale */
+.ani.scale {
+  opacity: 0;
+  transform: scale(0.9) translateY(30px);
+  transition: 1s;
+}
+.ani.scale.moving {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
