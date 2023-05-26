@@ -14,6 +14,11 @@
   .inner {
     width: 97.2222vw;
   }
+  /* visual */
+  .visu-inner h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
   /* intro */
   .intro-inner {
     width: 83.3333vw;
@@ -269,6 +274,9 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .mo {
+    display: block;
+  }
   body {
     font-size: 16px;
   }
@@ -294,9 +302,7 @@
     width: 60px;
     height: 3px;
   }
-
   /* header */
-
   .all-menu-wrap {
     height: auto;
     width: 100%;
@@ -320,7 +326,6 @@
     margin: 8px 5px 8px 5px;
     transition: 0.5s;
   }
-
   .all-menu-inner a:hover {
     background-color: #fff;
     color: var(--color-orange);
@@ -329,7 +334,7 @@
     border-bottom: none;
   }
   .header .logo img {
-    width: 160px;
+    width: 130px;
   }
   /* visual */
   .visual {
@@ -350,6 +355,7 @@
   }
   .visu-inner p {
     font-size: 18px;
+    line-height: 25px;
   }
   .visu-inner .link-btn {
     margin-top: 50px;
@@ -360,6 +366,9 @@
   /* intro */
   .pc {
     display: none;
+  }
+  .mo {
+    display: block;
   }
   .intro-box {
     flex-direction: column;
@@ -461,7 +470,8 @@
     transform: translateX(-50%);
   }
   .review-btns .btn {
-    top: 100px;
+    box-shadow: none;
+    top: 130px;
   }
   .review-dots li {
     width: 10px;
@@ -612,10 +622,10 @@
   }
 }
 @media screen and (max-width: 480px) {
-  .off-mo {
+  .mo {
     display: none;
   }
-  .mo-br {
+  .only480 {
     display: block;
   }
   .inner {
@@ -695,6 +705,10 @@
   .review-box .inner-text {
     height: auto;
   }
+  /* campaign */
+  .campaign h2.title {
+    margin-bottom: 50px;
+  }
   /* download */
   .down-left h3 {
     font-size: 25px;
@@ -710,6 +724,7 @@
 }
 @media screen and (max-width: 380px) {
   /* visual */
+
   .visu-inner .link-btn {
     margin-top: 110px;
   }
@@ -721,4 +736,5 @@
     font-size: 25px;
     line-height: 35px;
   }
+  /* bannr */
 }
